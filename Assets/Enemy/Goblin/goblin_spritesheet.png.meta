@@ -70,7 +70,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -84,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -137,9 +137,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 31
+        y: 32
         width: 16
-        height: 17
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,10 +157,10 @@ TextureImporter:
       name: goblin_spritesheet_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 15
+        x: 16
+        y: 32
         width: 16
-        height: 17
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,8 +178,8 @@ TextureImporter:
       name: goblin_spritesheet_2
       rect:
         serializedVersion: 2
-        x: 16
-        y: 31
+        x: 32
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -199,8 +199,8 @@ TextureImporter:
       name: goblin_spritesheet_3
       rect:
         serializedVersion: 2
-        x: 16
-        y: 15
+        x: 48
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -220,10 +220,10 @@ TextureImporter:
       name: goblin_spritesheet_4
       rect:
         serializedVersion: 2
-        x: 32
-        y: 31
+        x: 0
+        y: 16
         width: 16
-        height: 15
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,10 +241,10 @@ TextureImporter:
       name: goblin_spritesheet_5
       rect:
         serializedVersion: 2
-        x: 32
-        y: 15
+        x: 16
+        y: 16
         width: 16
-        height: 17
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -262,8 +262,8 @@ TextureImporter:
       name: goblin_spritesheet_6
       rect:
         serializedVersion: 2
-        x: 48
-        y: 31
+        x: 32
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -284,7 +284,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 15
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -387,14 +387,26 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e7971754852ef54499695672b95e167d
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      goblin_spritesheet_0: 685267539325443055
+      goblin_spritesheet_1: 1389895093345447926
+      goblin_spritesheet_10: -7691990320725225722
+      goblin_spritesheet_11: -6932334397416635257
+      goblin_spritesheet_2: 6241837322878474811
+      goblin_spritesheet_3: 1552869151895934863
+      goblin_spritesheet_4: -4993338339827292023
+      goblin_spritesheet_5: -6654304060574600212
+      goblin_spritesheet_6: 6126467551051091254
+      goblin_spritesheet_7: -576407222678904361
+      goblin_spritesheet_8: 1954245441328434962
+      goblin_spritesheet_9: -2517039487888108646
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
