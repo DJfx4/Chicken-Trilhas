@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
-
+    public string nextLevelName = "Level 1";
     public Image itemImage;
 
     public PlayerAudioController audioController;
@@ -17,6 +18,7 @@ public class Player : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemy"))
         {
             Debug.Log("PlAYER TOCOU NO INIMIGO, ENTÃO PERDEU!!!");
+            SceneManager.LoadScene("GameOver");
         }
     }
 
@@ -36,6 +38,7 @@ public class Player : MonoBehaviour
             if (canWinlevel)
             {
                 Debug.Log("PLAYER GANHOU O LEVEL!!!");
+                SceneManager.LoadScene(nextLevelName);
             } else
             {
                 Debug.Log("PLAYER NÃO GANHOU O LEVEL!!!");
