@@ -13,5 +13,11 @@ public class SceneController : MonoBehaviour
             Debug.Log("Clicou no Espaço!");
             SceneManager.LoadScene(goToScene);
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Debug.Log("ESC!");
+            Application.Quit();
+        }
     }
 }
