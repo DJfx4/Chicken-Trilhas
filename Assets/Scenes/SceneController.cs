@@ -14,10 +14,19 @@ public class SceneController : MonoBehaviour
             SceneManager.LoadScene(goToScene);
         }
 
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            Debug.Log("ESC!");
-            Application.Quit();
-        }
+        //if (Input.GetKeyDown(KeyCode.Escape))
+        //{
+        //    Debug.Log("ESC!");
+        //    Application.Quit();
+        //}
+    }
+
+    public void StartGame()
+    {
+        SceneManager.LoadScene(goToScene);
+    }
+    public void ExitGame()
+    {
+        Application.Quit();
     }
 }
