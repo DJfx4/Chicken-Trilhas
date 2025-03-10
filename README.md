@@ -1,4 +1,5 @@
-# Chicken-Trilhas
- (Z) to atack
- keyboard arrows to move
- (Space) to Jump
+## Chicken-Trilhas
+# Botton:
+1. (Z) to atack
+2. (Space) to Jump
+3. keyboard arrows to move
