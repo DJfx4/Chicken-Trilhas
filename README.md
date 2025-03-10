@@ -1,4 +1,4 @@
 # Chicken-Trilhas
-(Z) to atack
-keyboard arrows to move
-(Space) to Jump
+# (Z) to atack
+# keyboard arrows to move
+# (Space) to Jump
